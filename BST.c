@@ -4,13 +4,7 @@ struct node {
  int a ;
  struct node * lchild, *rchild;
 };
-struct node *insert(struct node *ptr, int ikey);
-struct node *search(struct node *ptr, int ikey);
-struct node *Min(struct  node *ptr);
-struct node *Max(struct  node *ptr);
-struct node *inorder(struct node  *ptr);
-struct node *preorder(struct  node *ptr);
-struct node *postorder(struct node  *ptr);
+
 int main(){
     struct node *root = NULL;
     int ch ,k;
